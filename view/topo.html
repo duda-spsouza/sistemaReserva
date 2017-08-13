@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" crossorigin="anonymous">
+	<link href='css/stylesheet.css' rel='stylesheet' type='text/css'>
+
+	<title>Sistema Reservas</title>
+</head>
+<body>
+	<div id='navMenu'>
+	<ul>
+		<li><a href="index.php?op=Login&ac=logout"><span>Logout</span></a></li>
+	   	<li class='subMenu'><a>Usuários</a>
+	      	<ul>
+	        	<li><a href="index.php?op=Usuarios&ac=novo">Novo Usuário</a></li>
+				<li><a href="index.php?op=Usuarios&ac=listar">Consultar Usuários</a></li>
+	      	</ul>
+	   	</li>
+	   	<li class='subMenu'><a>Salas</a>
+			<ul>
+	            <li><a href="index.php?op=Quartos&ac=novo">Nova Sala</a></li>
+	            <li><a href="index.php?op=Quartos&ac=listar">Consultar Salas</a></li>
+	        </ul>
+	   	</li>
+	   	<li class='subMenu'><a>Reservas</a>
+			<ul>
+	            <li><a href="index.php?op=Reservas&ac=novo">Nova Reserva</a></li>
+	            <li><a href="index.php?op=Reservas&ac=listar">Consultar Reservas</a></li>
+	        </ul>
+	   	</li>
+	</ul>
+	</div>
+	<div id="content">
